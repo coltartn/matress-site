@@ -191,12 +191,30 @@ button {
     background: none;
     background-color: gold;
   }
+  .small.banner h2 {
+    font-size: 4rem;}
 
   h1 {font-size: 2.5rem;}
 
-  .title p { font-size: 1.2rem;}
+  .title p {
+    font-size: 1.2rem;}
 
   .fontsize p {
-    font-size: 1.2rem;
+    font-size: 1.2rem;}
+
+  .small.banner p {
+    font-size: 1.5rem;}
+
+
+
+  }
+@media(max-width:576px) {
+.small.banner h2 {
+  font-size: 3rem;
+}
+.small.banner p {
+    font-size: 1rem;
+  }
+
 
 }
