@@ -29,6 +29,9 @@ span{
 footer {
   color: white;
 }
+h2 {
+  font-size: 3rem;
+}
 
 
 /*--- Banners and Background Images ---*/
@@ -68,7 +71,7 @@ footer {
   text-align: center;
 }
 h1{
-  font-size: 6rem;
+  font-size: 7vw;
 }
 .title p{
   font-size: 2rem;
@@ -105,7 +108,22 @@ h1{
   font-size: 1rem;
 }
 .quote {
-  min-height: 60vh;
+  min-height: 50vh;
+}
+.text-align-right{
+  text-align: right;
+}
+.fontsize p{
+  font-size: 2rem;
+  padding-top: 12%;
+}
+.text-align-right-pad {
+  padding-bottom: 10%;
+  text-align: right;
+  color: #C0C0C0;
+}
+.quotem p{
+  font-size: 5rem;
 }
 
 
@@ -114,17 +132,36 @@ h1{
 footer{
   background-color: rgb(60, 60, 65);
   min-height: 60vh;
+  padding: 5%;
+  padding-bottom: 2%;
+
 }
-.grid.lets-connect h2{
+.lets-connect h2{
   font-size: 5rem;
 }
-.grid.lets-connect span {
+.lets-connect span {
   display: block;
   line-height: 0.8%;
 }
-.grid.lets-connect p {
+.lets-connect p {
   padding-top: 14%;
 }
 
 
 /*--- Contact Form ---*/
+input, textarea, button {
+  display: block;
+  padding: 3%;
+  margin: 2%;
+  font-family:'Work Sans', sans-serif;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+textarea {
+  min-height: 25vh;
+}
+button {
+  background-color: #FFBE00;
+  color: white;
+}
