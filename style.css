@@ -2,7 +2,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border: 0px solid rgb(220, 220, 220)
 }
 
@@ -184,7 +185,10 @@ button {
     padding: 5%;
   }
   .mob-reverse {
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
   .small.banner {
     min-height: 50vh;
