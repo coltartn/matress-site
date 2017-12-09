@@ -165,3 +165,38 @@ button {
   background-color: #FFBE00;
   color: white;
 }
+
+
+/*--Media Query--*/
+@media(max-width:1024px) {
+  h1 {font-size: 3rem;}
+
+  .title p { font-size: 1.6rem;}
+}
+
+
+
+@media(max-width:768px) {
+  [class*='bg'] {
+    padding-bottom: 50%;
+  }
+  .banner {
+    padding: 5%;
+  }
+  .mob-reverse {
+    flex-direction: column-reverse;
+  }
+  .small.banner {
+    min-height: 50vh;
+    background: none;
+    background-color: gold;
+  }
+
+  h1 {font-size: 2.5rem;}
+
+  .title p { font-size: 1.2rem;}
+
+  .fontsize p {
+    font-size: 1.2rem;
+
+}
