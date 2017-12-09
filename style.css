@@ -7,6 +7,11 @@
   border: 0px solid rgb(220, 220, 220)
 }
 
+/*--gridlex reset--*/
+[class*=grid-], [class*=grid_], [class~=grid]{
+  margin: 0;
+}
+
 
 /*--- Universal Styles ---*/
 /*--- eg: padding on sections, utility classes, etc.---*/
@@ -33,7 +38,9 @@ footer {
 h2 {
   font-size: 3rem;
 }
-
+p{
+  font-size: 2rem;
+}
 
 /*--- Banners and Background Images ---*/
 [class*='bg'],
@@ -74,10 +81,6 @@ h2 {
 h1{
   font-size: 7vw;
 }
-.title p{
-  font-size: 2rem;
-}
-
 
 
 
@@ -99,7 +102,6 @@ h1{
   text-align: center;
 }
 .small.banner p {
-  font-size: 2rem;
   text-align: center;
 }
 
@@ -115,7 +117,6 @@ h1{
   text-align: right;
 }
 .fontsize p{
-  font-size: 2rem;
   padding-top: 12%;
 }
 .text-align-right-pad {
@@ -155,7 +156,7 @@ input, textarea, button {
   padding: 3%;
   margin: 2%;
   font-family:'Work Sans', sans-serif;
-  width: 100%;
+  width: 96%;
   border-radius: 5px;
   font-size: 1rem;
 }
@@ -178,6 +179,10 @@ button {
 
 
 @media(max-width:768px) {
+
+  .title{
+    min-height: 60vh;
+  }
   [class*='bg'] {
     padding-bottom: 50%;
   }
