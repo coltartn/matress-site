@@ -1,0 +1,130 @@
+/*--- CSS Rest ---*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0px solid rgb(220, 220, 220)
+}
+
+
+/*--- Universal Styles ---*/
+/*--- eg: padding on sections, utility classes, etc.---*/
+header,
+footer,
+.padded{
+  padding: 5%;
+}
+.half-height{
+  min-height: 50vh;
+}
+
+/*--- Typography ---*/
+body {
+  font-family: 'Work Sans', sans-serif;
+  color: rgb(60, 60, 65);
+}
+span{
+  color: #FFBE00;
+}
+footer {
+  color: white;
+}
+
+
+/*--- Banners and Background Images ---*/
+[class*='bg'],
+.banner,
+.small-banner {
+  background-color: rgb(200,200,200);
+}
+.title {
+  background-image: url(images/tree.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center;
+}
+
+.bg-pug{
+  background-image: url(images/pug.jpg);
+  background-attachment: local;
+  background-size: cover;
+  background-position: 39% 35%;
+}
+
+.bg-bed{
+  background-image: url(images/bed.jpg);
+  background-attachment: local;
+  background-size: cover;
+  background-position: 39% 35%;
+}
+
+
+
+/*--- header ---*/
+[class*= 'title']
+{
+  color: white;
+  text-align: center;
+}
+h1{
+  font-size: 6rem;
+}
+.title p{
+  font-size: 2rem;
+}
+
+
+
+
+/*--small banner--*/
+.small.banner span{
+  color: white;
+}
+.small.banner{
+  min-height: 70vh;
+}
+.bg-pencil{
+  background-image: url(images/pencil.jpg);
+  background-attachment: local;
+  background-size: cover;
+  background-position: 80% 32%;
+}
+.small.banner h2{
+  font-size: 6rem;
+  text-align: center;
+}
+.small.banner p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+
+/*--- Testomonial Section ---*/
+.quote p {
+  font-size: 1rem;
+}
+.quote {
+  min-height: 60vh;
+}
+
+
+
+/*--- Footer ---*/
+footer{
+  background-color: rgb(60, 60, 65);
+  min-height: 60vh;
+}
+.grid.lets-connect h2{
+  font-size: 5rem;
+}
+.grid.lets-connect span {
+  display: block;
+  line-height: 0.8%;
+}
+.grid.lets-connect p {
+  padding-top: 14%;
+}
+
+
+/*--- Contact Form ---*/
