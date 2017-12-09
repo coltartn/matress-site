@@ -38,9 +38,10 @@ footer {
 h2 {
   font-size: 3rem;
 }
-p{
+h3{
   font-size: 2rem;
 }
+
 
 /*--- Banners and Background Images ---*/
 [class*='bg'],
@@ -84,12 +85,16 @@ h1{
 
 
 
+
+
 /*--small banner--*/
 .small.banner span{
   color: white;
 }
 .small.banner{
   min-height: 70vh;
+  text-align: center;
+
 }
 .bg-pencil{
   background-image: url(images/pencil.jpg);
@@ -99,16 +104,12 @@ h1{
 }
 .small.banner h2{
   font-size: 6rem;
-  text-align: center;
-}
-.small.banner p {
-  text-align: center;
 }
 
 
 /*--- Testomonial Section ---*/
-.quote p {
-  font-size: 1rem;
+.quote h3 {
+  font-size: 1.5rem;
 }
 .quote {
   min-height: 50vh;
@@ -116,7 +117,7 @@ h1{
 .text-align-right{
   text-align: right;
 }
-.fontsize p{
+.fontsize h3{
   padding-top: 12%;
 }
 .text-align-right-pad {
@@ -124,7 +125,7 @@ h1{
   text-align: right;
   color: #C0C0C0;
 }
-.quotem p{
+.quotem h3{
   font-size: 5rem;
 }
 
@@ -134,18 +135,17 @@ h1{
 footer{
   background-color: rgb(60, 60, 65);
   min-height: 60vh;
-  padding: 5%;
-  padding-bottom: 2%;
-
+  padding: 5% 5% 2% 5%;
 }
 .lets-connect h2{
   font-size: 5rem;
 }
 .lets-connect span {
   display: block;
-  line-height: 0.8%;
+  line-height: 0.4;
+  margin-bottom: 0.5em;
 }
-.lets-connect p {
+.lets-connect h3 {
   padding-top: 14%;
 }
 
@@ -173,16 +173,14 @@ button {
 @media(max-width:1024px) {
   h1 {font-size: 3rem;}
 
-  .title p { font-size: 1.6rem;}
+  .title h3 { font-size: 1.6rem;}
 }
 
 
 
 @media(max-width:768px) {
 
-  .title{
-    min-height: 60vh;
-  }
+
   [class*='bg'] {
     padding-bottom: 50%;
   }
@@ -205,13 +203,10 @@ button {
 
   h1 {font-size: 2.5rem;}
 
-  .title p {
-    font-size: 1.2rem;}
-
-  .fontsize p {
-    font-size: 1.2rem;}
-
-  .small.banner p {
+  h3{
+    font-size: 1.2rem;
+  }
+  .small.banner h3 {
     font-size: 1.5rem;}
 
 
@@ -221,7 +216,7 @@ button {
 .small.banner h2 {
   font-size: 3rem;
 }
-.small.banner p {
+.small.banner h3 {
     font-size: 1rem;
   }
 
